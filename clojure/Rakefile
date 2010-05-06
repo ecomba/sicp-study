@@ -1,0 +1,9 @@
+require 'rake'
+
+task :default => :test
+
+desc 'Run the tests for the project'
+task :test do
+  sh %Q{java -cp /opt/local/share/java/clojure/lib/clojure.jar:/opt/local/share/java/clojure/lib/clojure-contrib.jar:chapter01 clojure.lang.Script chapter01/sicp_test.clj}
+end
+

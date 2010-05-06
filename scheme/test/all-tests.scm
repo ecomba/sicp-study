@@ -7,4 +7,5 @@
 ;
 ; To test add the test classes below
 ;
-(load "chapter01/ex1.3.scm")
+(load "test/ex1.3-test.scm")
+(load "test/ex1.6-test.scm")
