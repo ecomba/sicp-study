@@ -9,10 +9,6 @@
          (is (= 4 (larger 3 4)))
          (is (= 9 (larger 9 4)))
          )
-(deftest smaller-test
-         (is (= 3 (smaller 3 4)))
-         (is (= 4 (smaller 9 4)))
-         )
 (deftest sum-of-squares-test
          (is (= 8 (sum-of-squares 2 2)))
          (is (= 13 (sum-of-squares 2 3)))

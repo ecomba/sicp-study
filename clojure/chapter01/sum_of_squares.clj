@@ -8,9 +8,6 @@
 (defn larger [x y]
   (if (> x y) x y))
 
-(defn smaller [x y]
-  (if (< x y) x y))
-
 (defn sum-of-larger-squares [x y z]
   (sum-of-squares (larger x y)
-                  (larger (smaller x y) z)))
+                  (larger y z)))
