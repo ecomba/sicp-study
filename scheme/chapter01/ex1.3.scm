@@ -12,9 +12,6 @@
 (define (larger x y)
   (if (> x y) x y))
 
-(define (smaller x y)
-  (if (< x y) x y))
-
 (define (sum-of-larger-squares x y z) 
-  (sum-of-squares (larger x y) (larger (smaller x y) z)))
+  (sum-of-squares (larger x y) (larger (larger x y) z)))
 
